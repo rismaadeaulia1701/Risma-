@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Risma Ade Aulia | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#fdf2ff,#f7f0ff,#fff5f8);
+    color:#333;
+    overflow-x:hidden;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+header{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    position:relative;
+}
+
+.hero{
+    background:rgba(255,255,255,0.35);
+    backdrop-filter:blur(15px);
+    padding:50px;
+    border-radius:30px;
+    box-shadow:0 15px 40px rgba(0,0,0,0.08);
+    max-width:800px;
+}
+
+.hero img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:6px solid white;
+    margin-bottom:20px;
+}
+
+.hero h1{
+    font-size:3rem;
+    color:#7d3cff;
+}
+
+.hero h3{
+    color:#555;
+    margin:10px 0;
+    font-weight:500;
+}
+
+.hero p{
+    margin-top:15px;
+    line-height:1.8;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:12px 30px;
+    background:linear-gradient(45deg,#8b5cf6,#ec4899);
+    color:white;
+    text-decoration:none;
+    border-radius:50px;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+section{
+    padding:80px 0;
+}
+
+.title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.title h2{
+    font-size:2.3rem;
+    color:#7d3cff;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:rgba(255,255,255,0.6);
+    backdrop-filter:blur(10px);
+    border-radius:20px;
+    padding:25px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#7d3cff;
+    margin-bottom:10px;
+}
+
+.card p{
+    line-height:1.8;
+}
+
+.timeline{
+    max-width:900px;
+    margin:auto;
+}
+
+.timeline-item{
+    background:white;
+    margin-bottom:20px;
+    padding:25px;
+    border-left:5px solid #8b5cf6;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.05);
+}
+
+.timeline-item h3{
+    color:#7d3cff;
+}
+
+.contact{
+    text-align:center;
+}
+
+.contact-box{
+    background:rgba(255,255,255,0.7);
+    padding:40px;
+    border-radius:25px;
+    max-width:700px;
+    margin:auto;
+    box-shadow:0 10px 30px rgba(0,0,0,0.08);
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    color:#777;
+}
+
+.decor1{
+    position:fixed;
+    width:300px;
+    height:300px;
+    background:#d8b4fe;
+    border-radius:50%;
+    filter:blur(100px);
+    top:-50px;
+    left:-100px;
+    z-index:-1;
+}
+
+.decor2{
+    position:fixed;
+    width:300px;
+    height:300px;
+    background:#f9a8d4;
+    border-radius:50%;
+    filter:blur(100px);
+    bottom:-50px;
+    right:-100px;
+    z-index:-1;
+}
+
+@media(max-width:768px){
+    .hero h1{
+        font-size:2rem;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="decor1"></div>
+<div class="decor2"></div>
+
+<header>
+    <div class="hero">
+        <img src="https://via.placeholder.com/180" alt="Profile">
+
+        <h1>Risma Ade Aulia</h1>
+        <h3>Mahasiswa | Future Professional</h3>
+
+        <p>
+            Mahasiswa yang memiliki semangat tinggi dalam pengembangan diri,
+            kepemimpinan, serta inovasi digital. Berkomitmen untuk terus
+            belajar dan menciptakan solusi kreatif yang berdampak positif bagi
+            masyarakat dan dunia profesional.
+        </p>
+
+        <a href="#about" class="btn">Explore More</a>
+    </div>
+</header>
+
+<section id="about">
+<div class="container">
+
+<div class="title">
+<h2>Tentang Saya</h2>
+</div>
+
+<div class="grid">
+
+<div class="card">
+<h3>Profil</h3>
+<p>
+Nama : Risma Ade Aulia<br>
+Jenis Kelamin : Perempuan<br>
+Pekerjaan : Mahasiswa<br>
+Domisili : Makassar, Indonesia
+</p>
+</div>
+
+<div class="card">
+<h3>Bio</h3>
+<p>
+Michelle adalah mahasiswa yang aktif dalam berbagai kegiatan akademik
+dan organisasi. Memiliki ketertarikan pada bidang teknologi,
+komunikasi digital, dan pengembangan sumber daya manusia.
+Dikenal sebagai pribadi kreatif, disiplin, dan mudah beradaptasi.
+</p>
+</div>
+
+<div class="card">
+<h3>Keahlian</h3>
+<p>
+• Public Speaking<br>
+• Leadership<br>
+• Project Management<br>
+• UI/UX Design<br>
+• Content Creation<br>
+• Digital Marketing
+</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<section>
+<div class="container">
+
+<div class="title">
+<h2>Pengalaman Kerja</h2>
+</div>
+
+<div class="timeline">
+
+<div class="timeline-item">
+<h3>Digital Marketing Intern</h3>
+<p>
+PT Inovasi Nusantara (2024 - 2025)<br>
+Mengelola kampanye media sosial dan membantu meningkatkan
+engagement perusahaan hingga 40%.
+</p>
+</div>
+
+<div class="timeline-item">
+<h3>Project Coordinator</h3>
+<p>
+Creative Youth Community (2023 - 2024)<br>
+Memimpin tim dalam pelaksanaan program edukasi digital
+yang melibatkan lebih dari 500 peserta.
+</p>
+</div>
+
+<div class="timeline-item">
+<h3>Content Creator</h3>
+<p>
+Freelance (2022 - Sekarang)<br>
+Membuat konten edukatif dan branding digital untuk UMKM.
+</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<section>
+<div class="container">
+
+<div class="title">
+<h2>Pencapaian & Karir</h2>
+</div>
+
+<div class="grid">
+
+<div class="card">
+<h3>🏆 Mahasiswa Berprestasi</h3>
+<p>
+Terpilih sebagai Mahasiswa Berprestasi Tingkat Fakultas Tahun 2025.
+</p>
+</div>
+
+<div class="card">
+<h3>🚀 Innovation Award</h3>
+<p>
+Memenangkan kompetisi inovasi digital tingkat nasional dengan proyek
+pengembangan platform edukasi berbasis web.
+</p>
+</div>
+
+<div class="card">
+<h3>🌟 Leadership Excellence</h3>
+<p>
+Berhasil memimpin berbagai program organisasi yang berdampak pada
+peningkatan partisipasi anggota hingga 60%.
+</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<section>
+<div class="container">
+
+<div class="title">
+<h2>Pendidikan</h2>
+</div>
+
+<div class="card">
+<h3>Universitas Negeri Indonesia</h3>
+<p>
+Program Studi Teknologi dan Inovasi Digital<br>
+2022 - Sekarang
+</p>
+</div>
+
+</div>
+</section>
+
+<section>
+<div class="container">
+
+<div class="title">
+<h2>Kontak</h2>
+</div>
+
+<div class="contact">
+<div class="contact-box">
+<h3>Let's Connect ✨</h3>
+
+<p>Email :rismaadeaulia46@email.com</p>
+<p>Instagram : @Risma Ade Aulia</p>
+<p>LinkedIn : Risma Ade Aulia</p>
+
+</div>
+</div>
+
+</div>
+</section>
+
+<footer>
+©️ 2026 Risma Ade Aulia
+• Designed with 💜
+</footer>
+
+</body>
+</html>
